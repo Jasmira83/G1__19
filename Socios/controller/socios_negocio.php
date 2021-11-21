@@ -11,7 +11,7 @@
   header('Access-Control-Allow-Origin: *');  
  header('Content-Type:application/json');
 
- require_once("../config/conexion.php");
+ require_once("../../config/conexion.php");
  require_once("../../Socios/models/Socios_negocio.php");
  $socio_negocio = new Socio_negocio(); 
 
